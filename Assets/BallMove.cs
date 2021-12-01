@@ -11,9 +11,9 @@ public class BallMove : MonoBehaviour
 
     void Update()
     {
-        float spinAngle = transform.GetComponent<Rigidbody2D>().angularVelocity;
+        //float spinAngle = transform.GetComponent<Rigidbody2D>().angularVelocity;
     
-        transform.eulerAngles += new Vector3(0,0,spinAngle*100);
+        //transform.eulerAngles += new Vector3(0,0,spinAngle*100);
 
 
     }
